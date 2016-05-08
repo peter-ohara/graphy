@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graphy</title>
+    <!-- <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-md-12">
+            <canvas id="canvas" onclick="draw(event)"></canvas>
+          </div>
+        </div>
+
+        <div id="photo-template">
+            <div class="photo">
+                <img />
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <input type="file" id="folderSelector"/>
+
+    <input id="load-image" type="file" style="display:none" accept="image/*"/>
+
+    <input id="save-image" type="file" nwsaveas="drawing.png" style="display:none">
+    <input id="save-points" type="file" nwsaveas="points.json" style="display:none">
+
+    <input id="import-points" type="file" style="display:none" accept="text/json"/>
+    <input id="save-points" type="file" nwsaveas style="display:none">
+
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

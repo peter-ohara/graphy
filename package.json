@@ -1,0 +1,9 @@
+{
+    "name": "graphy",
+    "main": "./html/index.html",
+    "window": {
+        "toolbar": false,
+        "width": 1024,
+        "height": 768 
+    }
+}
